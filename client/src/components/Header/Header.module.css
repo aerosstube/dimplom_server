@@ -1,0 +1,93 @@
+h1 {
+    margin: 0;
+}
+
+.headerMain {
+    width: auto;
+    height: 95px;
+    background-color: #0095ffdb;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.headerImg {
+    width: 100px;
+    height: auto;
+}
+
+.headerContain {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.headerContainImg {
+    display: flex;
+    margin: 0;
+}
+
+.headerMainText {
+    color: white;
+    text-align: left;
+    margin: auto 0;
+    width: 250px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.headerText {
+    margin: auto 10px auto 20px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: .3s ease all;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.headerText:hover {
+    color: #0095FFDB !important;
+    background-color: white;
+}
+
+.activeLink {
+    margin: auto 10px auto 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: .3s ease all;
+    border-radius: 10px;
+    color: #0095FFDB !important;
+    background-color: white;
+}
+
+.headerText:last-child {
+    margin: auto 10px auto 20px;
+    color: white;
+}
+
+.headerIcon {
+    margin: 38px 10px auto 0;
+    font-size: x-large;
+    color: white;
+}
+
+
+.exitMenu {
+    color: #0095FFDB;
+
+}
+
+.exitMenu li {
+    border: 1px solid #0095FFDB;
+    background-color: white;
+    color: #0095FFDB;
+    border-radius: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,10 @@
+/server/node_modules/
+/server/config/
+
+/client/node_modules/
+/.idea/
+/server/dist/
+/client/build/
+/server/.DS_Store/
+/server/.prettierrc
+/.DS_Store/

@@ -1,0 +1,76 @@
+html {
+    overflow: scroll;
+}
+
+.tableContain {
+    border: 2px solid #0095FFDB;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.tableInp {
+    border: none;
+    width: 100%;
+}
+
+.tableCells {
+    border: none;
+    width: 100%;
+}
+
+.sickColumn {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.respectColumn {
+    color: #007dff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.noneColumn {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.totalColumn {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lessonColumn {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tableText {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0095FFDB;
+}
+
+.table .ant-table-thead > tr > th:nth-child(3) {
+    background-color: green !important;
+    color: #ffffff;
+}
+
+.table .ant-table-thead > tr > th:nth-child(4) {
+    background-color: #007dff !important;
+    color: #ffffff;
+}
+
+.table .ant-table-thead > tr > th:nth-child(5) {
+    background-color: red !important;
+    color: #ffffff;
+}
+
+.table .ant-table-thead > tr > th:nth-child(4)::before {
+    background-color: blue !important;
+}
+
+.table .ant-table-thead > tr > th:nth-child(3)::before {
+    background-color: green !important;
+}

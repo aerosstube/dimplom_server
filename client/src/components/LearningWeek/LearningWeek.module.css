@@ -1,0 +1,25 @@
+.learningWeek {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1194px;
+    flex-wrap: wrap;
+    min-height: 500px;
+}
+
+.pageContain {
+    justify-content: center;
+    display: flex;
+    gap: 0;
+}
+
+.pageIcon {
+    color: #1E8BFD;
+    font-size: 30px;
+}
+
+.pageText {
+    margin: 0 15px;
+    color: #1E8BFD;
+    font-size: 25px;
+}

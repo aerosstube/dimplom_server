@@ -1,0 +1,155 @@
+.tableContain {
+    border: 2px solid #0095FFDB;
+    margin: 10px 20px;
+}
+
+.tableInp {
+    border: none;
+    width: 100%;
+}
+
+.tableCells {
+    border: none;
+    width: 100%;
+
+}
+
+.tableText {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0095FFDB;
+}
+
+.lessonsText {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.avgMark {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.exMark {
+    border: none;
+    width: 30px;
+    background-color: green;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.goodMark {
+    border: none;
+    width: 30px;
+    background-color: #2f4110;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.midMark {
+    border: none;
+    width: 30px;
+    background-color: orange;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.badMark {
+    border: none;
+    width: 30px;
+    background-color: red;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.late {
+    border: none;
+    width: 30px;
+    background-color: orange;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.sick {
+    border: none;
+    width: 30px;
+    background-color: #007DFF;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.default {
+    border: none;
+    width: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tCellInp {
+    padding: 0 10px 0 10px;
+}
+
+.tCellInp:focus {
+    background-color: rgba(0, 149, 255, 0.52);
+}
+
+.table .ant-table-tread > tr:last-child {
+    background-color: red !important;
+    color: #ffffff;
+}
+
+.lastColumn {
+    border-left: 2px solid #0095FFDB !important;
+    z-index: 999;
+}

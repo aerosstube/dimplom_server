@@ -1,0 +1,148 @@
+.lessonContain {
+    display: flex;
+    width: 258px;
+    height: 66px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 0 24px 24px 24px;
+    justify-content: space-around;
+
+}
+
+.lessonNumber {
+    color: #007dff;
+    max-width: 5px;
+    font-size: 20px;
+}
+
+.lessonContain:hover {
+    cursor: pointer;
+}
+
+.icon {
+    color: #029ef7;
+    z-index: 999;
+    margin-right: 5px;
+
+}
+
+.lessonMark {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+
+}
+
+.exMark {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+    color: green;
+}
+
+.badMark {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+    color: red;
+}
+
+.goodMark {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+    color: #6eb601;
+}
+
+.sick {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+    color: #029ef7 !important;
+}
+
+.midMark {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+    color: orange;
+}
+
+.default {
+    width: 53px;
+    height: 53px;
+    border: 1px solid rgba(0, 149, 255, 0.55);
+    border-radius: 10px;
+    margin: auto 0;
+}
+
+.lessonName {
+    font-weight: bold;
+    margin-bottom: 3px;
+    height: 15px;
+    text-align: left;
+}
+
+.timeOfLesson {
+    font-weight: bold;
+    margin-bottom: 3px;
+    height: 15px;
+    text-align: right;
+}
+
+.teacherName {
+    text-align: left;
+    color: gray;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.numberOfCab {
+    text-align: right;
+    color: gray;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.lessonTextLeft {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lessonTextRight {
+    margin: 0 10px 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.markText {
+    font-weight: bold;
+    font-size: large;
+    margin: 15px 0 16px 0;
+}
+
+.flexMainContain {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flexContain {
+    display: flex;
+
+}
